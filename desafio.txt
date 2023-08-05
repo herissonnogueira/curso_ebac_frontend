@@ -1,2 +1,0 @@
-1. Aplicar a máscara de telefone com plugin jQuery Mask Plugin.
-2. Adicionar a validação Jquery Validate
