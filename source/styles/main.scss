@@ -1,0 +1,71 @@
+@use 'variaveis';
+
+body {
+    font-family: variaveis.$fontPrincipal;
+    background-color: variaveis.$corPrincipal;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+    h1 {
+        color: #1C1E21;
+        text-align: center;
+    }
+
+    p {
+        color: #1C1E21;
+        line-height: 1.6;
+    }
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #CF4647;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    a {
+        text-decoration: none;
+        color: #fff;
+    }
+    
+}
+button:hover {
+    background-color: #9A2829;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+    padding: 10px 0;
+    background-color: #9A2829;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: variaveis.$mobile) {
+    .container {
+        max-width: 80%;
+    }
+}
